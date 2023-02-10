@@ -56,7 +56,7 @@ const equalFunction = (button) => {
     const result = document.getElementById('InputDisplay').value
 
     if (result.indexOf('x')) {
-      document.getElementById('InputDisplay').value = eval(result.replace('x', '*'))
+      document.getElementById('InputDisplay').value = eval(result.replace(/x/g, '*'))
     }
     document.getElementById('InputDisplay').value = eval(result)
   }
