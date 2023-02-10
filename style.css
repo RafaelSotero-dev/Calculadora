@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --borderColor: rgb(68, 68, 68);
+  --color: #e6e0e0;
+  
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #7975C4 0%, #7165AB 100%);
+  justify-content: center;
+  height: 100vh;
+}
+
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #282631;
+  background-blend-mode: multiply;
+  width: min(70vw, 350px);
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow:
+    -0.3rem 0 .5rem rgba(0, 0, 0, 0.45),
+    .3rem 0 .5rem rgba(0, 0, 0, 0.45),
+    inset 0 -1rem .8rem rgba(0, 0, 0, 0.25),
+    inset 0 .4rem .8em rgba(255, 255, 255, 0.14);
+  gap: 2rem;
+}
+
+#Display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 6.0rem;
+  border-radius: .8rem;
+}
+
+#LastCalc {
+  align-self: flex-end;
+  color: #b3afaf;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  text-align: center;
+  width: fit-content;
+}
+
+#InputDisplay {
+  text-align: right;
+  font-size: 2.5rem;
+  color: var(--color);
+  border: none;
+  background-color: transparent;
+  margin-top: 0.5rem;
+  width: 87%;
+  outline: none;
+}
+
+#ContainerButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  background-color: #1F2223;
+  box-shadow: 
+  inset 0 .2rem .1em rgba(255, 255, 255, 0.02),
+    0 .4rem .5rem rgba(0, 0, 0, 0.45);
+  border-radius: 100%;
+  color: var(--color);
+  cursor: pointer;
+  transition: 0.2s all;
+  user-select: none;
+  width: 6rem;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: .3rem .2rem .5rem #282631;
+  /* Lowering the shadow */
+}
