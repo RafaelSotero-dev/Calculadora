@@ -66,6 +66,9 @@ main {
   background-color: transparent;
   margin-top: 0.5rem;
   width: 87%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   outline: none;
 }
 

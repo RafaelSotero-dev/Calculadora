@@ -44,7 +44,8 @@ const colorButtons = (button) => {
 
 const cleanInput = (button) => {
   if (button.textContent === 'AC') {
-    document.getElementById('InputDisplay').value = ''
+    result = document.getElementById('InputDisplay').value
+    document.getElementById('InputDisplay').value = result.substring(0, result.length - 1)
   }
 }
 
