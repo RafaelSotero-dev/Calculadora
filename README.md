@@ -2,7 +2,6 @@
 <br/>
 <h3>Gif mostando a calculadora</h3>
 <img src="screenshots\CalculadoraGif.gif" alt="Mostando as funções da calculadora em um gif"/>
-<br/>
 <h3>Tecnologias</h3>
 <ul>
   <li>JavaScript</li>
