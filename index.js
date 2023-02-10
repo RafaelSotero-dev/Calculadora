@@ -54,6 +54,10 @@ const equalFunction = (button) => {
       document.getElementById('InputDisplay').value
 
     const result = document.getElementById('InputDisplay').value
+
+    if (result.indexOf('x')) {
+      document.getElementById('InputDisplay').value = eval(result.replace('x', '*'))
+    }
     document.getElementById('InputDisplay').value = eval(result)
   }
 }
@@ -66,7 +70,6 @@ const showNumbersInInput = (event, button) => {
     button.textContent != '='
   ) {
     if (button.textContent === 'x') {
-      event.target.textContent = '*'
       document.getElementById('InputDisplay').value =
         inputElemet + event.target.textContent
     }
