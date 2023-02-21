@@ -4,6 +4,8 @@
 Este é um projeto de calculadora que foi criado usando HTML, CSS e JavaScript.
 
 ## Funcionalidades
+<img src="screenshots\CalculadoraGif.gif" alt="Mostando as funções da calculadora em um gif"/>
+
 - A calculadora suporta operações de adição, subtração, multiplicação e divisão.
 - Os usuários podem inserir números e selecionar a operação desejada usando os botões na calculadora.
 - O resultado é exibido na tela da calculadora em tempo real.
@@ -28,7 +30,3 @@ Este projeto foi criado por Rafael Sotero. Você pode encontrá-lo no GitHub em 
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://mit-license.org/) para obter mais detalhes.
-
-<br/>
-<h3>Gif mostando a calculadora</h3>
-<img src="screenshots\CalculadoraGif.gif" alt="Mostando as funções da calculadora em um gif"/>
